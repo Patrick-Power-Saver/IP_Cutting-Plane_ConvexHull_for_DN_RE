@@ -1,0 +1,58 @@
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Python 缓存/环境 ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env/
+
+# --- 数据与中间结果（不需要跟踪） ---
+DataSet/
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.db
+
+# --- 输出目录（不需要跟踪） ---
+Output/
+out_inventory_simulation/
+output_*/
+output_callback/
+output_compare_heuristics_SO/
+output_customization/
+output_different_K/
+output_joint_benefit_luce_loss/
+output_plain_repeat/
+output_assortment_map/
+
+# --- 日志/临时 ---
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- 许可证 ---
+gurobi.lic
+
+# 临时脚本和性能数据
+Check_toyExample_2SRO_enum2sRO_optimal.py
+data_generate_add_cardi_from_table2.py
+find_example.py
+perf_plotdate_after_transformation.txt
+perf_runtime_raw_data.txt
